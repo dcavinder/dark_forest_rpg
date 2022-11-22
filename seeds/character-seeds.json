@@ -1,0 +1,51 @@
+[
+    {
+        "character_name": "Dhrog",
+        "race": "Half-Orc",
+        "class": "Fighter",
+        "background": "Criminal",
+        "strength": "",
+        "dexterity": "",
+        "constitution": "",
+        "intellegence": "",
+        "wisdom": "",
+        "charisma": ""
+      },
+      {
+        "character_name": "Thalaera",
+        "race": "Elf",
+        "class": "Rogue",
+        "background": "Urchin",
+        "strength": "",
+        "dexterity": "",
+        "constitution": "",
+        "intellegence": "",
+        "wisdom": "",
+        "charisma": ""
+      },
+      {
+        "character_name": "Miirym",
+        "race": "Dragonborn",
+        "class": "Cleric",
+        "background": "Sage",
+        "strength": "",
+        "dexterity": "",
+        "constitution": "",
+        "intellegence": "",
+        "wisdom": "",
+        "charisma": ""
+      },
+      {
+        "character_name": "Herble",
+        "race": "Gnome",
+        "class": "Warlock",
+        "background": "Hermit",
+        "strength": "",
+        "dexterity": "",
+        "constitution": "",
+        "intellegence": "",
+        "wisdom": "",
+        "charisma": ""
+      }
+
+  ]
