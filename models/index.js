@@ -14,4 +14,4 @@ User.hasMany(Character, {
     OnDelete: "CASCADE",
 })
 
-module.exports = { User };
+module.exports = { User, Character };
