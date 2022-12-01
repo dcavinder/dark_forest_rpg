@@ -1,0 +1,25 @@
+{
+  "name": "dark_forest_rpg",
+  "version": "1.0.0",
+  "engines": {
+    "node": "18.12.1",
+    "npm": "8.19.2"
+  },
+  "description": "A note taking app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "FaMaVa, dcavinder",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "connect-session-sequelize": "^7.1.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.26.0"
+  }
+}
