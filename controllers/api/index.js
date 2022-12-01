@@ -1,9 +1,8 @@
+
 const router = require('express').Router();
+const characterRoutes = require('./characterRoutes');
 
-const apiRoutes = require('./api');
-const homeRoutes = require('./homeRoutes');
-
-router.use('/', homeRoutes);
-router.use('/api', apiRoutes);
+// Prefix all routes defined in `bookRoutes.js` with `/books
+router.use('/users', characterRoutes);
 
 module.exports = router;
