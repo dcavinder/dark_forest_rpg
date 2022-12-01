@@ -2,6 +2,11 @@
 // I think it would be a good idea to have a user id (number), user name, email, and password.
 //additionally we might condsider allowing users to add their gamer tag as well
 
+const { Model, DataTypes } = require('sequelize');
+const sequelize = require('../config/connection');
+
+class User extends Model {}
+
 User.init(
     {
       id: {
@@ -29,4 +34,14 @@ User.init(
           len: [8],
         },
       },
-    },)
+    },
+    {
+      sequelize,
+      timestamps: false,
+      freezeTableName: true,
+      underscored: true,
+      modelName: 'user',
+    },
+  );
+
+module.exports = User;
