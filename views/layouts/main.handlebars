@@ -1,15 +1,44 @@
 <head>
     <meta charset="UTF-8">
-    <title>Potluck Party</title>
-    <link rel="stylesheet" href="/css/jass.css">
+    <title>Dark Forest</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
+    <header>
+        <nav class="navbar navbar-expand shadow-lg p-3">
+            <div class="container-fluid">
+                <a class="darkforest medieval navbar-brand" href="/">The Dark Forest</a>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        {{#if logged_in}}
+                        <li class="nav-item">
+                            <a class="navigation cinzel nav-link active text-light" aria-current="page" href="/profile">Profile</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="navigation cinzel no-button nav-link text-light" id="logout">Logout</a>
+                        </li>
+                        {{else}}
+                        <li class="nav-item">
+                            <a class="navigation cinzel nav-link light-color" href="/login">Login</a>
+                        </li>
+                        {{/if}}
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
     <div class="">
         <main class="">
             {{{ body }}}
         </main>
-    </div>
+    </div
+    {{#if logged_in}}
+    <script src="/js/logout.js"></script>
+    {{/if}}
 </body>
 
 </html>
