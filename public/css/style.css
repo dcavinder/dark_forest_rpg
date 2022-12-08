@@ -4,6 +4,12 @@ body {
     background-position: center;
 }
 
+.btn:focus,
+.form-control:focus {
+    border-color: #3f9b70;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px #286649;
+}
+
 .btn-color {
     background-color: #286649;
 }
@@ -22,11 +28,6 @@ body {
 
 .form-control {
     border: 0;
-}
-
-.form-control:focus {
-    border-color: #3f9b70;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px #286649;
 }
 
 .form-control:valid {
