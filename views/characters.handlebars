@@ -1,0 +1,29 @@
+<div>
+  <div>
+    <h2>
+      &#127869 Current Menu
+    </h2>
+  </div>
+  {{#each characters as |character|}} .
+    <div>
+
+      <p>
+        {{character.character_name}}.
+        {{character.race}}
+        {{character.class}}
+        {{character.background}}
+        {{character.strength}}
+        {{character.dexterity}}
+        {{character.constitution}}
+        {{character.intellegence}}
+        {{character.wisdom}}
+        {{character.charisma}}
+      </p>
+    </div>
+    <div>
+      <p>
+        <!-- guest_name will eventually go here -->
+      </p>
+    </div>
+  {{/each}}
+</div>
